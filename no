@@ -1,0 +1,15 @@
+partial alphanumeric_keys 
+xkb_symbols "mac_dvorak" {
+
+    include "no(dvorak)"
+    name[Group1]= "Norwegian Dvorak(Mac)";
+
+
+    key <AE06>	{ [6,ampersand,threequarters,fiveeights]	};
+    key <AE07>	{ [7,slash,bar,backslash]	};
+    key <AE08>	{ [8,parentleft,bracketleft,braceleft]	};
+    key <AE09>	{ [9,parentright,bracketright,braceright ]	};
+    key <TLDE> {[apostrophe]}; 
+    key <AD11> {[less, greater]}; 
+    key <BKSL> {[at,asterisk]}; 
+};
